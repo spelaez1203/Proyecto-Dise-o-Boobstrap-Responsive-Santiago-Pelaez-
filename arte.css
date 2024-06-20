@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  line-height: 1.6; /* Mejora la legibilidad */
+  color: #333;
+}
+.navbar {
+    background-color: #141617 !important; /* Importante para sobrescribir estilos de Bootstrap */
+}
+
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+
+.jumbotron {
+  background-color:  #272727;
+  color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 0;
+  margin-bottom: 2rem; /* Añadido para separar del contenido */
+}
+
+.artist-biographies {
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  margin-bottom: 40px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0px 0px 40px 3px #343a40;
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.25rem; /* Tamaño de fuente aumentado */
+}
+
+.card-text {
+  font-size: 1rem; /* Tamaño de fuente ajustado */
+  color: #666;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-4 .card {
+    height: 100%;
+  }
+}
+.footer {
+  background-color: #141617;
+  color: #ffffff; /* Color de texto cambiado para mejor contraste */
+  padding: 1rem 0;
+  margin-top: 2rem; /* Añadido para separar del contenido principal */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.875rem; /* Tamaño de fuente reducido */
+}

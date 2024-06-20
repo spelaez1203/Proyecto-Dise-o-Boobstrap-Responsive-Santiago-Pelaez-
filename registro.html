@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro para Eventos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+
+<body>
+    <!-- Video de fondo -->
+    <div id="background-video">
+        <video autoplay muted loop>
+            <source src="css/img/Y2meta.app-American Flag Waving [Royalty Free Video] 1080p 60fps-(720p60).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Header con menú responsive -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Galería de Arte</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="arte.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Eventos.html">Exposiciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="arte.html">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estadosunidos.html">Estados Unidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#egipcio">Egipcio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Formulario de inscripción -->
+    <div class="container mt-5">
+        <h2 class="text-center">Registro</h2>
+        <form class="mt-5">
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-6">
+                    <label for="nombres">Nombres:</label>
+                    <input type="text" class="form-control" id="nombres" name="nombres" required>
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-6">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" class="form-control" id="apellidos" name="apellidos" required>
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-6">
+                    <label for="documento">Documento:</label>
+                    <input type="text" class="form-control" id="documento" name="documento" required>
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-6">
+                    <label for="correo">Correo:</label>
+                    <input type="email" class="form-control" id="correo" name="correo" required>
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-6">
+                    <label for="celular">Celular:</label>
+                    <input type="tel" class="form-control" id="celular" name="celular" required>
+                </div>
+            </div>
+            <div class="form-row justify-content-center">
+                <div class="form-group col-md-6 text-center">
+                    <button type="submit" class="btn btn-primary mt-3">Inscribirse</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

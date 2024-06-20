@@ -1,0 +1,65 @@
+/* Estilo para la página de eventos */
+
+/* Estilo para el encabezado principal */
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Estilo para las tarjetas de eventos */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+
+    box-shadow: 0px 0px 40px 3px #343a40;
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #0764c7;
+    border-color: #071d35;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Estilo para el pie de página */
+.footer {
+    background-color: #141617;
+    color: #ffffff;
+    /* Color de texto cambiado para mejor contraste */
+    padding: 1rem 0;
+    margin-top: 2rem;
+    /* Añadido para separar del contenido principal */
+}
+
+.navbar {
+    background-color: #141617 !important;
+    /* Importante para sobrescribir estilos de Bootstrap */
+}
